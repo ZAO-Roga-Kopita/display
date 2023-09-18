@@ -1,0 +1,173 @@
+body {
+    width: 1024px;
+    height: 768px;
+    background-color: black;
+    background-image: url(./background_default.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 50px;
+}
+
+.head-signals {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+
+.first-line-signals, .second-line-signals,
+.third-line-signals, .four-line-signals,
+.five-line-signals, .six-line-signals,
+.seven-line-signals, .eight-line-signals,
+.nine-line-signals {
+    position: relative;
+    top: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-signals {
+    width: 355px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.center-signals-text {
+    justify-content: center;
+    font-size: 48px;
+}
+
+.center-bottom-signals {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+}
+
+.second-line-signals {
+    top: 45px
+}
+
+.third-line-signals {
+    top: 51px;
+}
+
+.four-line-signals {
+    top: 53px;
+}
+
+.five-line-signals {
+    top: 64px;
+}
+
+.six-line-signals {
+    top: 73px;
+}
+
+.seven-line-signals {
+    top: 79px;
+}
+
+.eight-line-signals {
+    top: 85px;
+}
+
+.nine-line-signals {
+    width: 57%;
+    margin: auto;
+    top: 89px;
+}
+
+.speedometer-container {
+    position: relative;
+    top: 60px;
+    width: 600px;
+    height: 600px;
+    border: 3px solid rgba(255, 0, 0, 0);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.speedometer-additional-container {
+    position: relative;
+    top: -535px;
+    width: 720px;
+    height: 720px;
+    border: 3px solid rgba(0, 0, 255, 0);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.arrow-container {
+    transition: 0.5s;
+    position: relative;
+    width: 595px;
+}
+
+.arrow-speed-container {
+    transform: rotate(-30deg);
+    top: 293px;
+}
+
+.arrow-turns-container {
+    transform: rotate(30deg);
+    top: 293px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrow-bar-container {
+    position: relative;
+    width: 720px;
+}
+
+.arrow-bar-1-container {
+    transform: rotate(-30deg);
+    top: 283px;
+    left: -60px;
+}
+
+.arrow-bar-2-container {
+    transform: rotate(18deg);
+    top: 284px;
+    left: -60px;
+}
+
+.arrow-oil-container {
+    transform: rotate(30deg);
+    top: 273px;
+    left: -60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrow-temperature-container {
+    transform: rotate(-18deg);
+    top: 274px;
+    left: -59px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrow-speed, .arrow-turns {
+    width: 30px;
+    height: 5px;
+    background: red;
+}
+
+.arrow-bar-1, .arrow-bar-2, .arrow-oil, .arrow-temperature {
+    width: 20px;
+    height: 5px;
+    background: red;
+}
+
+.arrow-oil, .arrow-temperature {
+    width: 15px;
+}
