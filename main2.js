@@ -73,7 +73,6 @@ function animate() {
     requestAnimationFrame(animate)
 
 
-
     controls.update()
     
     render()
