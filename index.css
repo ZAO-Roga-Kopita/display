@@ -95,6 +95,15 @@ img {
     margin: auto;
 }
 
+.speedometer-container canvas {
+    display: block;
+    width: 250px !important;
+    height: 250px !important;
+    touch-action: none;
+    margin: auto;
+    padding-top: 160px;
+}
+
 .speedometer-additional-container {
     position: relative;
     top: -535px;
@@ -129,18 +138,21 @@ img {
 }
 
 .arrow-bar-1-container {
+    transition: 0.5s;
     transform: rotate(-30deg);
-    top: 283px;
+    top: 286px;
     left: -60px;
 }
 
 .arrow-bar-2-container {
+    transition: 0.5s;
     transform: rotate(18deg);
-    top: 284px;
+    top: 280px;
     left: -60px;
 }
 
 .arrow-oil-container {
+    transition: 0.5s;
     transform: rotate(30deg);
     top: 273px;
     left: -60px;
@@ -149,6 +161,7 @@ img {
 }
 
 .arrow-temperature-container {
+    transition: 0.5s;
     transform: rotate(-18deg);
     top: 274px;
     left: -59px;
