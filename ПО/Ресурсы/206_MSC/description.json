@@ -1,0 +1,839 @@
+{
+  "DisplayWidth": 1024,
+  "DisplayHeight": 768,
+  "Version": 0.1,
+  "Objects": [
+    {
+      "Name": "abs",
+      "Path": "default\\ico\\abs.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "adblue",
+      "Path": "default\\ico\\adblue.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "asr",
+      "Path": "default\\ico\\asr.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "baby_pram",
+      "Path": "default\\ico\\baby_pram.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "battery",
+      "Path": "default\\ico\\battery.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "beam_high",
+      "Path": "default\\ico\\beam_high.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "beam_low",
+      "Path": "default\\ico\\beam_low.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "brake_failure",
+      "Path": "default\\ico\\brake_failure.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "bulb_failure",
+      "Path": "default\\ico\\bulb_failure.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "cab_fan",
+      "Path": "default\\ico\\cab_fan.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "cab_heater",
+      "Path": "default\\ico\\cab_heater.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "combustion_preheat",
+      "Path": "default\\ico\\combus_preheat.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "coolant_heat",
+      "Path": "default\\ico\\coolant_heat.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "coolant_heat_1",
+      "Path": "default\\ico\\coolant_heat_1.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "coolant_heat_2",
+      "Path": "default\\ico\\coolant_heat_2.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "coolant_heat_12",
+      "Path": "default\\ico\\coolant_heat_12.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "coolant_heat_pump_1",
+      "Path": "default\\ico\\coolant_heat_pump_1.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "coolant_heat_pump_2",
+      "Path": "default\\ico\\coolant_heat_pump_2.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "coolant_heat_pump_12",
+      "Path": "default\\ico\\coolant_heat_pump_12.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "cruise_ctrl",
+      "Path": "default\\ico\\cruise_ctrl.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "diesel",
+      "Path": "default\\ico\\diesel.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "drl",
+      "Path": "default\\ico\\drl.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "ebs",
+      "Path": "default\\ico\\ebs.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "eng_cool_temp",
+      "Path": "default\\ico\\ect.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "emergency_hammer",
+      "Path": "default\\ico\\emergency_hammer.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "eng_emiss_system_fail",
+      "Path": "default\\ico\\eng_emiss_system_fail.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "eng_inlet_air_filter",
+      "Path": "default\\ico\\eng_inlet_air_filter.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "engine",
+      "Path": "default\\ico\\engine.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "eng_cool_lvl",
+      "Path": "default\\ico\\engine_coolant_lvl.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "engine_fail",
+      "Path": "default\\ico\\engine_fail.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "extinguisher",
+      "Path": "default\\ico\\extinguisher.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "fog_front",
+      "Path": "default\\ico\\fog_front.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "fog_rear",
+      "Path": "default\\ico\\fog_rear.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "halt_brake",
+      "Path": "default\\ico\\halt_brake.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "heater_1",
+      "Path": "default\\ico\\heater_1.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "heater_2",
+      "Path": "default\\ico\\heater_2.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "heater_12",
+      "Path": "default\\ico\\heater_12.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "heater_auto",
+      "Path": "default\\ico\\heater_auto.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "hill_holding",
+      "Path": "default\\ico\\hill_holding.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "hydraulic_drive",
+      "Path": "default\\ico\\hydraulic_drive.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "immobile_person",
+      "Path": "default\\ico\\immobile.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "interior_illumination_1",
+      "Path": "default\\ico\\int_illum_1.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "interior_illumination_2",
+      "Path": "default\\ico\\int_illum_2.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "mirror_heat",
+      "Path": "default\\ico\\mirror_heat.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "oil_lvl",
+      "Path": "default\\ico\\oil_lvl_min.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "oil_lvl_max",
+      "Path": "default\\ico\\oil_lvl_max.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "oil_pressure",
+      "Path": "default\\ico\\oil_pressure.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "park_brake",
+      "Path": "default\\ico\\park_brake.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "pneumo",
+      "Path": "default\\ico\\pneumo.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "pneumo_1",
+      "Path": "default\\ico\\pneumo_1.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "pneumo_2",
+      "Path": "default\\ico\\pneumo_2.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "pneumo_12",
+      "Path": "default\\ico\\pneumo_12.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "pressure_1",
+      "Path": "default\\ico\\pressure_1.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "pressure_2",
+      "Path": "default\\ico\\pressure_2.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "pressure_3",
+      "Path": "default\\ico\\pressure_3.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "ramp",
+      "Path": "default\\ico\\ramp.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "retarder",
+      "Path": "default\\ico\\retarder.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "retarder_off",
+      "Path": "default\\ico\\retarder_off.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "return_driver",
+      "Path": "default\\ico\\return_driver.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "seat_belt",
+      "Path": "default\\ico\\seat_belt.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "side_light",
+      "Path": "default\\ico\\side_light.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "stab_ctrl",
+      "Path": "default\\ico\\stab_ctrl.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "steering_fluid_lvl",
+      "Path": "default\\ico\\steering_fluid_lvl.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "stop",
+      "Path": "default\\ico\\stop.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "susp_dm",
+      "Path": "default\\ico\\susp_dm.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "susp_down",
+      "Path": "default\\ico\\susp_down.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "susp_kneeling",
+      "Path": "default\\ico\\susp_kneeling.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "susp_notrans",
+      "Path": "default\\ico\\susp_notrans.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "susp_up",
+      "Path": "default\\ico\\susp_up.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "tachograph",
+      "Path": "default\\ico\\tachograph.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "transm_convert_temp",
+      "Path": "default\\ico\\transmission_convert_temperature.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "transm_fail",
+      "Path": "default\\ico\\transmission_failure.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "transm_temp",
+      "Path": "default\\ico\\transmission_temperature.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "turn_left",
+      "Path": "default\\ico\\turn_left.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "turn_right",
+      "Path": "default\\ico\\turn_right.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "tyre_fail",
+      "Path": "default\\ico\\tyre_fail.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "vent_fan_1",
+      "Path": "default\\ico\\vent_fan_1.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "vent_fan_2",
+      "Path": "default\\ico\\vent_fan_2.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "vent_fan_12",
+      "Path": "default\\ico\\vent_fan_12.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "warning",
+      "Path": "default\\ico\\warning.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "wheelchair_person",
+      "Path": "default\\ico\\wheelchair.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "window_heat",
+      "Path": "default\\ico\\window_heat.png",
+      "Type": "Ico"
+    },
+    {
+      "Name": "worn_brake",
+      "Path": "default\\ico\\worn_brake.png",
+      "Type": "Ico"
+    },
+
+	  {
+      "Name": "background_default",
+      "Path": "default\\backgrounds\\background_default.png",
+      "Type": "Bin"
+    }
+  ],
+
+  "Colors": {
+    "PURE_BLANK" : "#00000000",
+    "PURE_BLACK" : "#00000000",
+    "PURE_RED"   : "#00ff0000",
+    "PURE_GREEN" : "#0000ff00",
+    "PURE_BLUE"  : "#000000ff",
+    "PURE_YELLOW": "#00ffff00",
+    "PURE_WHITE" : "#00ffffff",
+
+    "BLUE" : "#004d4dff",
+    "AMBER": "#00ffbf00",
+    "GREEN": "#003cce3c",
+
+    "GRAY_100": "#00a3a3a3",
+    "GRAY_75" : "#00909090",
+    "GRAY_50" : "#00656565",
+    "GRAY_25" : "#00212121"
+  },
+  "FlashMode": {
+    "None": 0,
+    "Half": 1,
+    "1Hz": 2,
+    "2Hz": 3,
+    "3Hz": 4
+  },
+  "Screens": [
+    {"Name": "SCREEN_DIAG", "Background": "", "Icons": [
+      {"Name": "brake_failure", "X": 160, "Y": 15, "States": [
+        {"Name": "ON", "Color": "GRAY_25"}
+      ]}
+    ]},
+
+    {"Name": "SCREEN_default", "Background": "background_default", "Icons": [
+      {"Name": "brake_failure", "X": 162, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "WARN", "Color": "AMBER"},
+        {"Name": "FAIL", "Color": "PURE_RED"}
+      ]},
+      {"Name": "park_brake", "X": 212, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "abs", "X": 262, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "FAIL", "Color": "AMBER"}
+      ]},
+      {"Name": "stab_ctrl", "X": 312, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "WARN", "Color": "AMBER"}
+      ]},
+      {"Name": "engine", "X": 362, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "WARN", "Color": "AMBER"},
+        {"Name": "FAIL", "Color": "PURE_RED"}
+      ]},
+      {"Name": "turn_left", "X": 412, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "stop", "X": 464, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "turn_right", "X": 558, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "warning", "X": 610, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "drl", "X": 660, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "beam_low", "X": 710, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "beam_high", "X": 760, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "BLUE"}
+      ]},
+      {"Name": "seat_belt", "X": 810, "Y": 15, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+
+      {"Name": "pressure_1", "X": 230, "Y": 610, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "pressure_2", "X": 327, "Y": 90, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "eng_cool_temp", "X": 655, "Y": 90, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "diesel", "X": 757, "Y": 610, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "battery", "X": 860, "Y": 595, "States": [
+        {"Name": "NA", "Color": "PURE_BLANK"},
+        {"Name": "OFF", "Color": "GRAY_25"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+
+      {"Name": "asr", "X": 10, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "halt_brake", "X": 60, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "pressure_3", "X": 110, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "worn_brake", "X": 160, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "ebs", "X": 210, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+
+      {"Name": "engine_fail", "X": 10, "Y": 150, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "oil_pressure", "X": 60, "Y": 150, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "oil_lvl", "X": 110, "Y": 150, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"},
+        {"Name": "WARN", "Color": "PURE_RED"}
+      ]},
+      {"Name": "oil_lvl_max", "X": 110, "Y": 150, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "combustion_preheat", "X": 160, "Y": 150, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+
+      {"Name": "eng_inlet_air_filter", "X": 10, "Y": 210, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "eng_cool_lvl", "X": 60, "Y": 210, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "WARN", "Color": "AMBER"},
+        {"Name": "FAIL", "Color": "PURE_RED"}
+      ]},
+      {"Name": "steering_fluid_lvl", "X": 110, "Y": 210, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      
+      {"Name": "eng_emiss_system_fail", "X": 10, "Y": 270, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "adblue", "X": 60, "Y": 270, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+
+      {"Name": "hill_holding", "X": 10, "Y": 390, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "retarder", "X": 60, "Y": 390, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "retarder_off", "X": 60, "Y": 390, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+
+      {"Name": "hydraulic_drive", "X": 10, "Y": 450, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+
+      {"Name": "tyre_fail", "X": 10, "Y": 510, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+
+      {"Name": "pneumo_12", "X": 10, "Y": 570, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "pneumo_2", "X": 10, "Y": 570, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "pneumo_1", "X": 10, "Y": 570, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "susp_kneeling", "X": 60, "Y": 570, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},      
+      {"Name": "susp_up", "X": 60, "Y": 570, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "susp_down", "X": 60, "Y": 570, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "susp_dm", "X": 110, "Y": 570, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "WARN", "Color": "AMBER"},
+        {"Name": "FAIL", "Color": "PURE_RED"}
+      ]},
+      {"Name": "susp_notrans", "X": 110, "Y": 570, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+
+      {"Name": "coolant_heat_pump_12", "X": 760, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "coolant_heat_pump_2", "X": 760, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "coolant_heat_pump_1", "X": 760, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "coolant_heat_12", "X": 760, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "coolant_heat_2", "X": 760, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "coolant_heat_1", "X": 760, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "coolant_heat", "X": 760, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "heater_auto", "X": 810, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "heater_12", "X": 810, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "heater_2", "X": 810, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "heater_1", "X": 810, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "cab_heater", "X": 860, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "mirror_heat", "X": 910, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"},
+        {"Name": "WARN", "Color": "AMBER"}
+      ]},
+      {"Name": "window_heat", "X": 960, "Y": 90, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"},
+        {"Name": "WARN", "Color": "AMBER"}
+      ]},
+
+      {"Name": "side_light", "X": 810, "Y": 150, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "fog_front", "X": 860, "Y": 150, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "fog_rear", "X": 910, "Y": 150, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "bulb_failure", "X": 960, "Y": 150, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+
+      {"Name": "interior_illumination_2", "X": 860, "Y": 210, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "interior_illumination_1", "X": 860, "Y": 210, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "vent_fan_12", "X": 910, "Y": 210, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "vent_fan_2", "X": 910, "Y": 210, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "vent_fan_1", "X": 910, "Y": 210, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "cab_fan", "X": 960, "Y": 210, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+
+      {"Name": "ramp", "X": 910, "Y": 270, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "CALL", "Color": "AMBER"}
+      ]},
+      {"Name": "baby_pram", "X": 960, "Y": 270, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "CALL", "Color": "AMBER"}
+      ]},
+      {"Name": "wheelchair_person", "X": 910, "Y": 330, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "CALL", "Color": "AMBER"}
+      ]},
+      {"Name": "immobile_person", "X": 960, "Y": 330, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "CALL", "Color": "AMBER"}
+      ]},
+
+      {"Name": "emergency_hammer", "X": 910, "Y": 450, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+      {"Name": "extinguisher", "X": 960, "Y": 450, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "AMBER"}
+      ]},
+
+      {"Name": "return_driver", "X": 960, "Y": 510, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+
+      {"Name": "cruise_ctrl", "X": 385, "Y": 257, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "GREEN"}
+      ]},
+      {"Name": "tachograph", "X": 572, "Y": 242, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "CALL", "Color": "AMBER"}
+      ]},
+      {"Name": "transm_fail", "X": 370, "Y": 572, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "ON", "Color": "PURE_RED"}
+      ]},
+      {"Name": "transm_temp", "X": 420, "Y": 572, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "WARN", "Color": "AMBER"}
+      ]},
+      {"Name": "transm_convert_temp", "X": 600, "Y": 572, "States": [
+        {"Name": "OFF", "Color": "PURE_BLANK"},
+        {"Name": "WARN", "Color": "AMBER"},
+        {"Name": "FAIL", "Color": "PURE_RED"}
+      ]}
+    ]}
+  ],
+
+  "PriorityAssets": [],
+  "Assets": ["default\\backgrounds\\background_default.png"],
+  "Width": "1024",
+  "Height": "768"
+}

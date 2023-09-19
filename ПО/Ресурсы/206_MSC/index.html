@@ -1,0 +1,101 @@
+﻿<html>
+
+<head>
+    <title>Превью</title>
+</head>
+
+<body>
+    <input type="file" id="jsonFile" />
+    <div id="container">
+
+    </div>
+    <script>
+        let input = document.getElementById("jsonFile")
+        let container = document.getElementById("container")
+        let getFromArray = (data, name) => {
+            for(let i = 0; i < data.length; i++){
+                if(data[i].Name == name){
+                    return data[i]
+                }
+            }
+        }
+        let getObj = (data, name) => getFromArray(data.Objects, name)
+        let getObjPath = (data, name) => {
+            name = name.toLowerCase()
+            for(let i = 0; i < data.Objects.length; i++){
+                if(data.Objects[i].Name.toLowerCase() == name){
+                    return data.Objects[i].Path
+                }
+            }
+        }
+        let onSelectFile = () => {
+            let file = input.files[0]
+            let fileReader = new FileReader()
+            fileReader.onload = (data) => {
+                try {
+                    let json = JSON.parse(data.target.result)
+                    json.Screens.forEach(element => {
+                        try {
+                            let screen = document.createElement("div")
+                            screen.classList.add("display")
+                            if((json.DisplayWidth && json.DisplayWidth > 0) && (json.DisplayHeight && json.DisplayHeight > 0)) {
+                                screen.style.width = `${json.DisplayWidth}px`
+                                screen.style.height = `${json.DisplayHeight}px`
+                            }
+                            let back = getObjPath(json, element.Background)
+                            screen.setAttribute("data-image", back)
+                            screen.style.backgroundImage = "url(" + back.replace(/\\/g,"/") + ")"
+                            element.Icons.forEach(icon => {
+                                let img = document.createElement("img")
+                                img.setAttribute("src", getObjPath(json, icon.Name))
+                                img.style.top = icon.Y
+                                img.style.left = icon.X
+                                img.classList.add("ico")
+                                img.setAttribute("data-name", icon.Name)
+                                img.setAttribute("data-x", icon.X)
+                                img.setAttribute("data-y", icon.Y)
+                                img.onclick = (e) => {
+                                    const conflictIcons = []
+                                    for(let conflictIcon of document.elementsFromPoint(e.x, e.y)) {
+                                        if(conflictIcon.classList.contains("ico")) {
+                                            conflictIcons.push(conflictIcon)
+                                        }
+                                    }
+                                    let message = ""
+                                    for(let conflictIcon of conflictIcons) {
+                                        if(message.length > 0) {
+                                            message += "\n"
+                                        }
+                                        message += `Object: ${conflictIcon.getAttribute("data-name")}; Position: ${conflictIcon.getAttribute("data-x")}, ${conflictIcon.getAttribute("data-y")}`
+                                    }
+                                    if(message.length > 0) {
+                                        alert(message)
+                                    }
+                                }
+                                screen.appendChild(img)
+                            })
+                            container.appendChild(screen)
+                        } catch (e) {
+                            console.error("Build screen")
+                            console.log(e)
+                        }
+                        
+                    })
+                    input.style.display = "none"
+                } catch (e) {
+                    throw e
+                }
+            }
+            fileReader.readAsText(file)
+        }
+        input.addEventListener('change', onSelectFile, false)
+    </script>
+    <style>
+        html, body { background: #fff; margin: 16px; padding: 0; }
+        .display { width: 640px; height: 480px; background-size: cover; position: relative; margin: 16px; }
+        .display img { display: block; position: absolute; transition: 0.3s; cursor: pointer; }
+        .display img:hover { box-shadow: 0px 0px 1px #fff; }
+    </style>
+</body>
+
+</html>
