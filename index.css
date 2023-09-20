@@ -2,15 +2,36 @@ body {
     width: 1024px;
     height: 768px;
     background-color: black;
-    background-image: url(./background_default.png);
-    background-repeat: no-repeat;
-    background-position: center;
     margin: auto;
     font-family: 'Roboto', sans-serif;
 }
 
 img {
     height: 50px;
+}
+
+ul {
+    color: lightgray;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    cursor: pointer;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-right: 1px solid lightgray;
+}
+
+li:last-child {
+    border: none;
+}
+
+.display-wrapper {
+    display: none;
+    background-image: url(./background_default.png);
+    background-repeat: no-repeat;
 }
 
 .head-signals {
@@ -172,15 +193,31 @@ img {
 .arrow-speed, .arrow-turns {
     width: 30px;
     height: 5px;
+    box-shadow: 0 0 10px red;
     background: red;
 }
 
 .arrow-bar-1, .arrow-bar-2, .arrow-oil, .arrow-temperature {
     width: 20px;
     height: 5px;
+    box-shadow: 0 0 10px red;
     background: red;
 }
 
 .arrow-oil, .arrow-temperature {
     width: 15px;
+}
+
+
+.menu {
+    border: 2px solid gray;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-content {
+    border: 2px solid gray;
+    margin: auto;
 }

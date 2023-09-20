@@ -5,6 +5,14 @@ import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import Stats from 'three/examples/jsm/libs/stats.module'
 
+const initialScenePositionX = -1;
+const initialScenePositionY = -300;
+const initialScenePositionZ = 0;
+
+const initialCameraPositionX = -6;
+const initialCameraPositionY = 3;
+const initialCameraPositionZ = 0;
+
 const scene = new THREE.Scene()
 const color = 0xFFFFFF;
 const intensity = 5;
@@ -26,9 +34,9 @@ const camera = new THREE.PerspectiveCamera(
     0.1,
     1000
 )
-camera.position.z = 0
-camera.position.y = 3;
-camera.position.x = -6;
+camera.position.z = initialCameraPositionZ
+camera.position.y = initialCameraPositionY;
+camera.position.x = initialCameraPositionX;
 
 const renderer = new THREE.WebGLRenderer({
     alpha: true,
@@ -54,9 +62,9 @@ objLoader.load(
     // },
     (gltf) => {
         rocket = gltf.scene;
-        rocket.rotation.y = -300;
-        rocket.position.x = -1;
-        rocket.position.z = 0;
+        rocket.rotation.y = initialScenePositionY;
+        rocket.position.x = initialScenePositionX;
+        rocket.position.z = initialScenePositionZ;
         scene.add(rocket);
       }
 )
@@ -111,6 +119,34 @@ function handleButtons(buttons) {
             scene.rotation.y -= 0.01
             console.log(scene.rotation.y)
         }
+    }
+}
+
+function doorOpen() {
+    scene.rotation.y += 0.05;
+    if(scene.rotation.y <= 2){
+        requestAnimationFrame(doorOpen)
+    }
+}
+
+function doorClose() {
+    scene.rotation.y -= 0.05;
+    if(scene.rotation.y >= 0){  
+        requestAnimationFrame(doorClose)
+    }
+}
+
+
+
+document.getElementById("doors").onclick = function() {
+    if(scene.rotation.y <= 2){
+        requestAnimationFrame(doorOpen)
+    }
+}
+
+document.getElementById("doorsClose").onclick = function() {
+    if(scene.rotation.y >= 0){  
+        requestAnimationFrame(doorClose)
     }
 }
 
