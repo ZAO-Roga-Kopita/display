@@ -29,7 +29,6 @@ li:last-child {
 }
 
 .display-wrapper {
-    display: none;
     background-image: url(./background_default.png);
     background-repeat: no-repeat;
 }
@@ -210,6 +209,7 @@ li:last-child {
 
 
 .menu {
+    display: none;
     border: 2px solid gray;
     width: 100%;
     height: 100%;
