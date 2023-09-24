@@ -42,7 +42,7 @@ var oilContainer = document.getElementById('oil');
 var temperatureContainer = document.getElementById('temperature');
 
 for (let i = 0; i < signalsIds.length; i++) {
-    document.getElementById(signalsIds[i]).style.opacity = "0.2";
+    document.getElementById(signalsIds[i]).style.opacity = "1.0";
 }
 
 function randSignals() {
@@ -82,7 +82,7 @@ function refreshSpeed() {
     speedDisplay.innerHTML = Math.floor((speed + 30) * 0.83);
 }
 
-randSignals()
+
 
 setInterval(() => {
     randSignals()

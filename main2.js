@@ -155,6 +155,7 @@ function gameLoop() {
         const gamepad = navigator.getGamepads()[controllerIndex];
         handleButtons(gamepad.buttons);
     }
+    scene.rotation.y += 0.01
     requestAnimationFrame(gameLoop);
 }
 
